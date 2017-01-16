@@ -1,0 +1,64 @@
+try{window.parent._dv_win['dvCallback_1484587348130396']($dv,window,'535b72851e2643558bb2bc24bf37207f','tps11005.doubleverify.com');}catch(e){try{var image=window.document.createElement('img');image.src=window.location.protocol+'//tps30.doubleverify.com/visit.jpg?ctx=818052&cmp=1619415&dvtagver=6.1.src&dvp_cbError='+encodeURIComponent(e.message)}catch(e){}}$dv.pubSub.subscribe('ImpressionServed', $uid, 'RTN_LatencyTemp', function () {try {var beforeVisitCall = '';var templateStartTime = parent.getCurrentTime();var dv_win = parent.window._dv_win;if (dv_win && dv_win.t2tTimestampData) {if (dv_win.t2tTimestampData.length >= 2) {beforeVisitCall = dv_win.t2tTimestampData[1].beforeVisitCall;}}var latency = 0;if (beforeVisitCall != '' && templateStartTime != '') {latency = templateStartTime - beforeVisitCall;}if(latency > 1000 && latency < 90000) {$dv.registerEventCall($uid, { dvp_ltncy: latency });}} catch (e) {};});$dv.ViewabilityScriptVersion = 646;$dv.pubSub.subscribe('ImpressionServed', $uid, 'RTN_FBITemp', function () {});$dv.tags[$uid].set({"billable":{adArea: 100, duration: 100}});var newAvoValues = {};if ($dv.tags[$uid].AVO == undefined) $dv.tags[$uid].AVO = {};for (var id in newAvoValues){if (newAvoValues[id] != undefined){$dv.tags[$uid].AVO[id]= newAvoValues[id];}};$dv.tags[$uid].AVO.rpv = 1;try {function firePerf(win,dvpPrefix){try{if (win.performance && win.performance.timing){var perf = win.performance.timing;var result = {};result[dvpPrefix+'ns'] = perf.navigationStart;result[dvpPrefix+'rs'] = perf.requestStart;result[dvpPrefix+'re'] = perf.responseEnd;result[dvpPrefix+'dl'] = perf.domLoading;result[dvpPrefix+'dc'] = perf.domComplete;result[dvpPrefix+'le'] = perf.loadEventEnd;$dv.registerEventCall($uid,result);}}catch(e){};};function fireDvScriptsPerf(win, dvpPrefix, resourceName){try{if (win.performance && win.performance.getEntries){var entries = win.performance.getEntries();var result = {};for (var index in entries){if(entries[index] && entries[index].name && entries[index].name.indexOf(resourceName)>-1){result[dvpPrefix + 'fs'] = entries[index].fetchStart.toFixed(2);result[dvpPrefix + 'dur'] = entries[index].duration.toFixed(2);}}$dv.registerEventCall($uid,result);}}catch(e){};};function getPerf(win,dvpPrefix){try{win.addEventListener('unload',function(){firePerf(win, dvpPrefix);});}catch(e){};};function getDvScriptsPerf(win,dvpPrefix,resourceName){try{win.addEventListener('unload',function(){fireDvScriptsPerf(win, dvpPrefix, resourceName);});}catch(e){};};try {getPerf(window,'dvp_vprf');getPerf(window.parent,'dvp_aprf');getDvScriptsPerf(window, 'dvp_v', 'visit');getDvScriptsPerf(window, 'dvp_a', 'avs');getDvScriptsPerf(window.parent, 'dvp_d' , 'dvtp_src.js');getDvScriptsPerf(window.parent, 'dvp_dv' , 'dvtp_src_internal');}catch(e){};}catch(e){};    	$dv.pubSub.subscribe ('ImpressionServed', $uid, 'SendAdEntitiesForBSBAConsolidation', function() {
+            'use strict';
+            var stringifyFunc = null;
+			if(window.JSON){
+				stringifyFunc = window.JSON.stringify;
+			} else {
+				if(window.parent && window.parent.JSON){
+					stringifyFunc = window.parent.JSON.stringify;
+				}
+			}
+			if(!stringifyFunc){
+				return;
+			}
+            var targetWin;
+            var tag = $dv.tags[$uid];
+            var bsmsg = {
+                action : 'notifyBrandShieldAdEntityInformation',
+                bsAdEntityInformation : {
+                    comparisonItems : [{name : 'cmp', value : 10257001},{name : 'plmt', value : 10257306}], verboseReporting : false  }
+            };
+            var bsstring = stringifyFunc(bsmsg);
+
+            var findAndSend = function(){
+                if(!targetWin) {
+                    if (tag) {
+                        targetWin = tag.t2tIframeWindow;
+                        if (!targetWin) {
+                            var t2tIframeId = tag.t2tIframeId;
+                            //get t2t window and post the AdEntities to it.
+                            if (t2tIframeId) {
+                                var iFrame = window.parent.getElementById(t2tIframeId);
+                                if (iFrame) {
+                                    targetWin = iFrame.contentWindow;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                if(targetWin){
+                    targetWin.postMessage(bsstring, '*');
+                }
+            };
+
+            findAndSend();
+            setTimeout(findAndSend, 100);
+            setTimeout(findAndSend, 500);
+        });var impId = '535b72851e2643558bb2bc24bf37207f';var dvObj = $dv;var rtnName = dvObj==window.$dv ? 'ImpressionServed' : 'BeforeDecisionRender';dvObj.pubSub.subscribe(rtnName, impId, 'HE_RTN', function () { try {var ifu = '';var alu = 'http://ad.doubleclick.net/ddm/clk/291583327;106680815;k';var lbl='';var d=null,e=dvObj==window.$dv,h=e?parent:window,k=dvObj.tags[impId].protocol+"//"+(dvObj.tags[impId].ServerPublicDns||dvObj.tags[impId].serverPublicDns)+"/"+(e?"event":"bsevent")+".gif?impid="+impId,l=0,m=0,n=[],p=[],q=10;function r(a,c){function b(b){return f=function(g){g.preventDefault();if(!u[c<<q*b]&&(rhe(c,c<<q*b),u[c<<q*b]=!0,a)){events=i[b];for(g=0;g<events.length;g++)a.removeEventListener?a.removeEventListener(events[g],f):a.detachEvent?a.detachEvent("on"+events[g],f):a["on"+events[g]]=f}}}var i=[["click"],["focus"],"input change keyup textInput keypress paste".split(" ")],u=[];u[c]=!1;if(a)for(var j=0;j<i.length;j++){events=i[j];for(var o=0;o<events.length;o++)a.addEventListener?a.addEventListener(events[o],b(j),!0):a.attachEvent?a.attachEvent("on"+events[o],b(j)):a["on"+events[o]]=b(j)}}window.rhe=function(a,c){void 0==c&&(c=a);var b="",i="";"number"===typeof a&&void 0==n[a]&&(n[a]=!0,l+=a,b="&"+lbl+"heas="+l);"number"===typeof c&&void 0==p[c]&&(p[c]=!0,m+=c,i="&dvp_hease="+m);dvObj.domUtilities.addImage(k+"&"+lbl+"hea=1"+b+i,dvObj.tags[impId].tagElement.parentNode)};h.rhe=rhe;function s(a,c){var b=document.createElement(a);b.id=(c||a)+"-"+impId;b.style.visibility="hidden";b.style.position="absolute";b.style.display="none";return b}function t(a){var c=v;Object.defineProperty(c,a,{get:function(){return this.getAttribute(a)},set:function(b){this.setAttribute(a,b);"createEvent"in document?(b=document.createEvent("HTMLEvents"),b.initEvent("change",!1,!0),c.dispatchEvent(b)):(b=document.createEventObject(),c.fireEvent("onchange",b))}})}var w=s("form");w.submit=function(){window.rhe(1,1)};var v=s("input","txt");v.name=v.id;v.type="text";t("value");t("textContent");var x=s("input","btn");x.name=x.id;x.type="button";var y=s("input","sbmt");y.name=y.id;y.type="submit";y.click=function(){window.rhe(2,2)};var z=s("a");z.href="javascript:window.rhe(16,16);";if(""!=alu){var A=s("a");A.href=alu}h.document.body.insertBefore(w,d);h.document.body.insertBefore(z,d);w.insertBefore(v,d);w.insertBefore(x,d);w.insertBefore(y,d);r(v,8);r(x,4);r(y,2);r(w,1);""!=alu&&(A=s("a","alu"),A.href=alu,h.document.body.insertBefore(A,d),r(A,32));if(""!=ifu){var B=s("iframe");B.src=ifu;h.document.body.insertBefore(B,d);r(B,64)};} catch (e) {}; });$dv.CommonData.deviceType = 1;$dv.CommonData.detectedDeliveryType = 1;function IVCallback(ViewAssureBootstrapper) {    if(ViewAssureBootstrapper && typeof(ViewAssureBootstrapper)==='function') {       ViewAssureBootstrapper({ 'serverSettings': { 'protocol': 'https://', 'templateVersion': '11', 'TKH': '4606303464473472792' } });   } else {       new dv_InViewService({ 'protocol': 'https://' }).inViewManager();     }};$dv.pubSub.subscribe('ImpressionServed', $uid, 'createVersionSelector', function () {var version = $dv.ViewabilityScriptVersion;if(!version) return;if($dv.ViewabilityScriptVersion2 && Math.random()*100 < 50) {   var version = $dv.ViewabilityScriptVersion2; } var script = document.createElement('script'); script.type = 'text/javascript'; script.src = 'https://cdn.doubleverify.com/avs' + version + '.js'; document.body.appendChild(script);});var impId = '535b72851e2643558bb2bc24bf37207f';var dvObj = $dv;var isLogToDvp = false;var isTpImp = dvObj == window.$dv;var rtnName = isTpImp ? 'ImpressionServed' : 'BeforeDecisionRender';var eventStr = isTpImp ? 'event' : 'bsevent'; var contextWin = isTpImp ? parent : window;dvObj.pubSub.subscribe(rtnName, impId, 'CLIP_RTN', function () {function h(a){function f(b){setTimeout(function(){for(var c=b.localDescription.sdp.split("\n"),a=0;a<c.length;++a)0===c[a].indexOf("a=candidate:")&&g(c[a])},1E3)}function g(b){var c=/([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(b)[1],b=/(host)/.exec(b)[1];void 0===e[c]&&"host"===b&&(b={},b[!0===isLogToDvp?"dvp_lip":"lip"]=c,a(null,b));e[c]=!0}var e={};(function(){var b=window.RTCPeerConnection||window.mozRTCPeerConnection||window.webkitRTCPeerConnection;if(b){var c={optional:[{RtpDataChannels:!0}]},e={iceServers:[]};try{var d=new b(e,c);d.b=function(a){a.a&&g(a.a.a)};d.createDataChannel("");d.createOffer(function(a){d.setLocalDescription(a,function(){},function(){});f(d)},function(b){a({dvp_liperr:("createOffer_failed: "+b.message).slice(0,100)},null)})}catch(i){a({dvp_liperr:("createOffer_failed: "+i.message).slice(0,100)},null)}}else a({dvp_lipdis:"1"},null)})()}try{h(function(a,f){dvObj.registerEventCall(impId,null===a?f:a)})}catch(j){};});try{$dv.pubSub.publish('ImpressionServed', $uid);}catch(e){}oðöRs      X}TX}T=UÝÞ      …    :https://tps30.doubleverify.com/visit.js?ctx=1828362&cmp=10621604&ipos=&sid=1464063&plc=141635661&adid=&crt=76879199&btreg=313907734&btadsrv=doubleclick&adsrv=1&advid=4157372&num=&pid=&crtname=&unit=&chnl=&uid=1484587348082691&scusrid=&tagtype=&sr=&dt=&dup=&app=&sup=&dvvidver=&dfs=4236&ddur=36&dvdur=217&dvtagver=6.1.src&srcurlD=1&curl=&qpgid=&ssl=1&refD=2&htmlmsging=1&chro=0&hist=2&winh=0&winw=0&wouh=851&wouw=1440&scah=875&scaw=1440&DVP_ADID=313907734&navUa=mozilla%2F5.0%20(x11%3B%20ubuntu%3B%20linux%20i686%3B%20rv%3A50.0)%20gecko%2F20100101%20firefox%2F50.0&aUrlD=1&vavbkt=4,8,6,1,23&lvvn=17&jsver=104&eparams=DC4FC%3Dl9EEADTbpTauTauD%5DJ%3A%3E8%5D4%40%3ETauCBTau52C%3D2Taua%5Ch%5Ca_Tau9E%3E%3DTauC%5CD7%5D9E%3E%3DU2%26C%3Dl9EEADTbpTauTauD%5DJ%3A%3E8%5D4%40%3ETauCBTau52C%3D2Taua%5Ch%5Ca_Tau9E%3E%3DTauC%5CD7%5D9E%3E%3D&brid=2&brver=50&bridua=2&tstype=128&jsCallback=dvCallback_1484587348130396 necko:classified 1 strongly-framed 0 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAT2MIIE8jCCA9qgAwIBAgIQPA1TW0t0SCIfGdey420jZTANBgkqhkiG9w0BAQsFADB+MQswCQYDVQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRydXN0IE5ldHdvcmsxLzAtBgNVBAMTJlN5bWFudGVjIENsYXNzIDMgU2VjdXJlIFNlcnZlciBDQSAtIEc0MB4XDTE0MTAxMzAwMDAwMFoXDTE4MDEyMDIzNTk1OVowfTELMAkGA1UEBhMCVVMxETAPBgNVBAgMCE5ldyBZb3JrMREwDwYDVQQHDAhOZXcgWW9yazEZMBcGA1UECgwQRG91YmxlVmVyaWZ5IEluYzEQMA4GA1UECwwHVGVjaE9wczEbMBkGA1UEAwwSKi5kb3VibGV2ZXJpZnkuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0KsS6XQfD+UNj4rc9gKzvGry5ZERSmfnImOHwDhsH7sjhfdvMvtayiY5IJmBnG45lVqL0RKJF3OcnH/NAgdelRxuSKRFz1jiyAmDW3znQvZq1+b/gUJQeX0EghsNF6zB1d1wulmJRD9Z+ml294siUGwuCqQIWyll8zQGUSmiDemLjgTZm5UnBSbTkJJel8HZxJV25gZIVwGoGn34RvOOr9e9WKHjujDaInACFuV4QZWvGN5O6pomYHxZGq33tXevjGDTuWMQLYXfmdPKbyDyl9twWLEXm14QjTn6BHPoefFYFoiltYWaoZuG72B0KXlxuYWd1ACbIcb9U9rTJONh2QIDAQABo4IBazCCAWcwHQYDVR0RBBYwFIISKi5kb3VibGV2ZXJpZnkuY29tMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgWgMCsGA1UdHwQkMCIwIKAeoByGGmh0dHA6Ly9zcy5zeW1jYi5jb20vc3MuY3JsMGUGA1UdIAReMFwwWgYKYIZIAYb4RQEHNjBMMCMGCCsGAQUFBwIBFhdodHRwczovL2Quc3ltY2IuY29tL2NwczAlBggrBgEFBQcCAjAZDBdodHRwczovL2Quc3ltY2IuY29tL3JwYTAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwHwYDVR0jBBgwFoAUX2DPYZBV34RDFIpgKrL1evRDGO8wVwYIKwYBBQUHAQEESzBJMB8GCCsGAQUFBzABhhNodHRwOi8vc3Muc3ltY2QuY29tMCYGCCsGAQUFBzAChhpodHRwOi8vc3Muc3ltY2IuY29tL3NzLmNydDANBgkqhkiG9w0BAQsFAAOCAQEAp/A5+0ToXUTPgxGw4oAbd1lmMpH9ZYmq6MmMXXNzKEmj5bKIbl7uTyfGof+vgdQMFQ+rmxg/2OYz5QCW2UeCXoK7miey5qDQha7QX0452TOQaRIfddaJqCelmJSVQLOpRtB26I6EwHS+aJiektrLz3vjz/OA63CezbVjkN4vR7SbuvGCbg688gCNrTrq5a7RMD5aS8bP/xD7LtToKMJGyhGdtfzyBSlxWc78HQiOW/ZoS8eiGJrHmDr6AfwDelMypHRIhCH8IquuGUU1Rcow+03OwoYZ2J1qLEQkmHSkjRzNyNlNSvw4PnefRKXvY6VZfgc9t6W6+5jNPo0vvG7IjQA1AAMAAAAAAQEAAA== request-method GET response-head HTTP/1.1 200 OK
+Cache-Control: max-age=0
+Pragma: no-cache
+Content-Type: text/javascript; charset=utf-8
+Expires: 1/15/2017 5:22:28 PM
+Server: Microsoft-IIS/8.5
+x-powered-by: ASP.NET
+Date: Mon, 16 Jan 2017 17:22:28 GMT
+ original-response-headers Cache-Control: max-age=0
+Pragma: no-cache
+Content-Type: text/javascript; charset=utf-8
+Expires: 1/15/2017 5:22:28 PM
+Server: Microsoft-IIS/8.5
+x-powered-by: ASP.NET
+Date: Mon, 16 Jan 2017 17:22:28 GMT
+Connection: close
+ uncompressed-len 0   $Ð

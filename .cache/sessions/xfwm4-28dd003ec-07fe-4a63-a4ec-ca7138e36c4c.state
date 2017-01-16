@@ -1,0 +1,39 @@
+[CLIENT] 0x3800004
+  [CLIENT_ID] 227329b7d-daa8-4d25-92f2-f6754048e6ed
+  [CLIENT_LEADER] 0x3800001
+  [WINDOW_ROLE] xfce4-terminal-1483745245-185106489
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - milleniunfalcons@millenium-falcons-MacBookPro: ~
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (683,411,577,359)
+  [GEOMETRY-MAXIMIZED] (683,411,577,359)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x3600070
+  [CLIENT_ID] 25ed6b704-f7f0-466c-b311-6bf1210478fd
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] scripts.js - Treehouse Workspaces - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (735,60,673,797)
+  [GEOMETRY-MAXIMIZED] (735,60,673,797)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x360001d
+  [CLIENT_ID] 25ed6b704-f7f0-466c-b311-6bf1210478fd
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Chrome Browser - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (0,49,1440,851)
+  [GEOMETRY-MAXIMIZED] (1,49,733,750)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10380

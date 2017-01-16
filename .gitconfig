@@ -1,0 +1,5 @@
+[user]
+	name = BlaneJulian
+	email = sventrumpets@yahoo.com
+[core]
+	excludesfile = /home/milleniumfalcons/.gitignore_global

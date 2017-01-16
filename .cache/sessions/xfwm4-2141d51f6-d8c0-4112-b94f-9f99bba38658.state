@@ -1,0 +1,39 @@
+[CLIENT] 0x360001d
+  [CLIENT_ID] 2eb28e2cd-9a09-4bb3-9537-5bafc25a2369
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Code Challenge: Link to an External Script - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (55,49,733,750)
+  [GEOMETRY-MAXIMIZED] (55,49,733,750)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x36000b7
+  [CLIENT_ID] 2eb28e2cd-9a09-4bb3-9537-5bafc25a2369
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Your First JavaScript Program | JavaScript Basics | Treehouse - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (693,49,731,750)
+  [GEOMETRY-MAXIMIZED] (693,49,731,750)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x3600041
+  [CLIENT_ID] 2eb28e2cd-9a09-4bb3-9537-5bafc25a2369
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Oregon City, United States - Weather Forecasts | Maps | News - Yahoo Weather - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (533,77,711,750)
+  [GEOMETRY-MAXIMIZED] (533,77,711,750)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10080

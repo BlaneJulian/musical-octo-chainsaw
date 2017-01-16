@@ -1,0 +1,50 @@
+[CLIENT] 0x360001d
+  [CLIENT_ID] 2b2fee368-c0b3-4c3a-863a-197a982046f0
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Live Chess - Chess.com - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (15,51,762,848)
+  [GEOMETRY-MAXIMIZED] (15,51,762,848)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x3400021
+  [CLIENT_LEADER] 0x3400001
+  [RES_NAME] xfce4-notes
+  [RES_CLASS] Xfce4-notes
+  [WM_NAME] Notes - Notes
+  [WM_COMMAND] (1) "xfce4-notes"
+  [GEOMETRY] (854,267,300,380)
+  [GEOMETRY-MAXIMIZED] (854,267,300,380)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x8000
+[CLIENT] 0x3600acd
+  [CLIENT_ID] 2b2fee368-c0b3-4c3a-863a-197a982046f0
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Ubuntu Start Page - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (810,49,663,835)
+  [GEOMETRY-MAXIMIZED] (810,49,663,835)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x3800004
+  [CLIENT_ID] 2462413ef-a787-444a-af33-118b03cb34ff
+  [CLIENT_LEADER] 0x3800001
+  [WINDOW_ROLE] xfce4-terminal-1483499093--218825748
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - milleniunfalcons@millenium-falcons-MacBookPro: ~
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (840,97,577,359)
+  [GEOMETRY-MAXIMIZED] (840,97,577,359)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10080

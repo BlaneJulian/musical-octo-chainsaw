@@ -1,0 +1,311 @@
+DEBUG      libindicator-plugin       Looking at Module: libapplication.so
+DEBUG      libindicator-plugin       Loading Module: libapplication.so
+DEBUG      libindicator-plugin       Load indicator: libapplication.so
+DEBUG      libindicator-plugin       Looking at Service: com.canonical.indicator.messages
+DEBUG      libindicator-plugin       Loading Service: com.canonical.indicator.messages
+DEBUG      libindicator-plugin       Load indicator: com.canonical.indicator.messages
+DEBUG      libindicator-plugin       Looking at Service: com.canonical.indicator.sound
+DEBUG      libindicator-plugin       Loading Service: com.canonical.indicator.sound
+DEBUG      libindicator-plugin       Load indicator: com.canonical.indicator.sound
+DEBUG      Indicator-Application     Connected to Application Indicator Service.
+DEBUG      Indicator-Application     Request current apps
+DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.messages
+DEBUG      libindicator-plugin       Entry added for io=com.canonical.indicator.sound
+DEBUG      Indicator-Application     Building new application entry: :1.49  with icon: nm-signal-75 at position 0
+DEBUG      libindicator-plugin       Entry added for io=libapplication.so
+DEBUG      Indicator-Application     Building new application entry: :1.51  with icon: blueman-tray at position 0
+DEBUG      libindicator-plugin       Entry added for io=libapplication.so
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 352
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 353
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 354
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 355
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 356
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 357
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 358
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 359
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 360
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 361
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 362
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 363
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 373
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 374
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 375
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 376
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 377
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 380
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 381
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 382
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 383
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 384
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 385
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 386
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 387
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 364
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 365
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 366
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 367
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 368
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 369
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 370
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 371
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 372
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 378
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 379
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 818
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 819
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 820
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 821
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 822
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 823
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 824
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 825
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 826
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 827
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 828
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 829
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 838
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 839
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 840
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 841
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 842
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 845
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 846
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 847
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 848
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 849
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 850
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 851
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 852
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 830
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 831
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 832
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 833
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 834
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 835
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 836
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 837
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 843
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 844
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1120
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1121
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1122
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1123
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1124
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1125
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1126
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1127
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1128
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1129
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1130
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1131
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1135
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1136
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1137
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1138
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1139
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1142
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1143
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1144
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1145
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1146
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1147
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1148
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1149
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1132
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1133
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1134
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1140
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1141
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1586
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1587
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1588
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1589
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1590
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1591
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1592
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1593
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1594
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1595
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1596
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1597
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1608
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1609
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1610
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1611
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1612
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1615
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1616
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1617
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1618
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1619
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1620
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1621
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1622
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1598
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1599
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1600
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1601
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1602
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1603
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1604
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1605
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1606
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1607
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1613
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1614
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1820
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1821
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1822
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1823
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1824
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1825
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1826
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1832
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID
+DEBUG      LIBDBUSMENU-GLIB          Generating properties error for: 1833
+DEBUG      LIBDBUSMENU-GLIB          Error getting properties on a new menuitem: Error getting properties for ID

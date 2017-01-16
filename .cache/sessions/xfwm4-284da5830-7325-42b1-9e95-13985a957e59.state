@@ -1,0 +1,24 @@
+[CLIENT] 0x360001d
+  [CLIENT_ID] 2f75aa6e4-66a1-4552-ab4a-38827669e7e2
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Problem loading page - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (181,49,719,749)
+  [GEOMETRY-MAXIMIZED] (181,49,719,749)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x3200007
+  [CLIENT_LEADER] 0x3200001
+  [RES_NAME] nm-connection-editor
+  [RES_CLASS] Nm-connection-editor
+  [WM_NAME] Network Connections
+  [WM_COMMAND] (1) "nm-connection-editor"
+  [GEOMETRY] (947,243,400,300)
+  [GEOMETRY-MAXIMIZED] (947,243,400,300)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x0

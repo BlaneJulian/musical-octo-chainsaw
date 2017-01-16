@@ -1,0 +1,26 @@
+[CLIENT] 0x360001d
+  [CLIENT_ID] 2c19b1c33-b95f-4f1f-992c-a32adcbbf63a
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Live Chess - Chess.com - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (-17,49,1069,848)
+  [GEOMETRY-MAXIMIZED] (-17,49,1069,839)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x36013a1
+  [CLIENT_ID] 2c19b1c33-b95f-4f1f-992c-a32adcbbf63a
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] css/style.css - Treehouse Workspaces - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (1135,79,724,797)
+  [GEOMETRY-MAXIMIZED] (1135,79,724,797)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

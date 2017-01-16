@@ -1,0 +1,39 @@
+[CLIENT] 0x340001d
+  [CLIENT_ID] 26dd04c19-7a55-441e-9036-5eb67a8b4965
+  [CLIENT_LEADER] 0x3400001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Live Chess - Chess.com - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (0,49,1440,851)
+  [GEOMETRY-MAXIMIZED] (485,375,470,199)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10300
+[CLIENT] 0x3401bce
+  [CLIENT_ID] 26dd04c19-7a55-441e-9036-5eb67a8b4965
+  [CLIENT_LEADER] 0x3400001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Find love, friendship, support and hope in a safe, private & comfortable environment - PositiveSingles.com - Mozilla Firefox (Private Browsing)
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (295,230,1000,669)
+  [GEOMETRY-MAXIMIZED] (295,230,1000,669)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x3401b87
+  [CLIENT_ID] 26dd04c19-7a55-441e-9036-5eb67a8b4965
+  [CLIENT_LEADER] 0x3400001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] PositiveSingles.com mail - Burton2000 - Mozilla Firefox (Private Browsing)
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (251,537,470,199)
+  [GEOMETRY-MAXIMIZED] (251,537,470,199)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

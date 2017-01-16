@@ -1,0 +1,26 @@
+[CLIENT] 0x3600617
+  [CLIENT_ID] 2ab553c13-63e3-4a78-b7a6-3e8558145e99
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Numbers | JavaScript Basics | Treehouse - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (423,49,745,750)
+  [GEOMETRY-MAXIMIZED] (423,49,745,750)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x36000bb
+  [CLIENT_ID] 2ab553c13-63e3-4a78-b7a6-3e8558145e99
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Member: Jordlly - Chess.com - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (1,49,733,750)
+  [GEOMETRY-MAXIMIZED] (1,49,733,750)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10080

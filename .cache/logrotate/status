@@ -1,0 +1,25 @@
+logrotate state -- version 2
+"/home/milleniunfalcons/.cache/upstart/update-notifier-crash-_var_crash__usr_lib_ubiquity_bin_ubiquity.1000.crash.log" 2016-12-31-11:55:24
+"/home/milleniumfalcons/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_gnome-software.1000.crash.log" 2017-1-15-10:0:13
+"/home/milleniumfalcons/.cache/upstart/*.log" 2017-1-12-8:0:0
+"/home/milleniumfalcons/.cache/upstart/ssh-agent.log" 2017-1-16-9:19:34
+"/home/milleniumfalcons/.cache/upstart/startxfce4.log" 2017-1-16-9:19:34
+"/home/milleniunfalcons/.cache/upstart/update-notifier-release.log" 2017-1-10-13:45:37
+"/home/milleniumfalcons/.cache/upstart/gnome-keyring-ssh.log" 2017-1-16-9:19:34
+"/home/milleniumfalcons/.cache/upstart/dbus.log" 2017-1-16-9:19:34
+"/home/milleniunfalcons/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_thunar.1000.crash.log" 2017-1-10-13:45:37
+"/home/milleniumfalcons/.cache/upstart/gpg-agent.log" 2017-1-16-9:19:34
+"/home/milleniunfalcons/.cache/upstart/dbus.log" 2017-1-10-13:45:37
+"/home/milleniumfalcons/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_thunar.1000.crash.log" 2017-1-16-9:19:34
+"/home/milleniunfalcons/.cache/upstart/ssh-agent.log" 2017-1-10-13:45:37
+"/home/milleniunfalcons/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_gnome-software.1000.crash.log" 2017-1-10-13:45:37
+"/home/milleniumfalcons/.cache/upstart/indicator-sound.log" 2017-1-16-9:19:34
+"/home/milleniumfalcons/.cache/upstart/update-notifier-release.log" 2017-1-16-9:19:34
+"/home/milleniunfalcons/.cache/upstart/gpg-agent.log" 2017-1-10-13:45:37
+"/home/milleniunfalcons/.cache/upstart/startxfce4.log" 2017-1-10-13:45:37
+"/home/milleniunfalcons/.cache/upstart/indicator-sound.log" 2017-1-10-13:45:37
+"/home/milleniunfalcons/.cache/upstart/*.log" 2017-1-1-14:0:0
+"/home/milleniumfalcons/.cache/upstart/upstart-event-bridge.log" 2017-1-16-9:19:34
+"/home/milleniumfalcons/.cache/upstart/update-notifier-crash-_var_crash__usr_share_apport_apport-gtk.1000.crash.log" 2017-1-16-9:19:34
+"/home/milleniunfalcons/.cache/upstart/upstart-event-bridge.log" 2017-1-10-13:45:37
+"/home/milleniunfalcons/.cache/upstart/gnome-keyring-ssh.log" 2017-1-10-13:45:37

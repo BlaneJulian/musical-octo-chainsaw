@@ -1,0 +1,26 @@
+[CLIENT] 0x360001d
+  [CLIENT_ID] 210b93222-9e6f-4b44-8c02-ce74cd526dba
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Aerial Drone Cinematography and Photography Certificate Program | Professional and Continuing Education - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (0,49,1440,851)
+  [GEOMETRY-MAXIMIZED] (203,58,779,841)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10300
+[CLIENT] 0x3800004
+  [CLIENT_ID] 2f0da4451-ecf5-42d1-9be2-b7c45f97440f
+  [CLIENT_LEADER] 0x3800001
+  [WINDOW_ROLE] xfce4-terminal-1484086842--1913075604
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - milleniumfalcons@millenium-falcons-MacBookPro: ~
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (431,294,577,359)
+  [GEOMETRY-MAXIMIZED] (431,294,577,359)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

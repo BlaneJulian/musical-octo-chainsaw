@@ -1,0 +1,5 @@
+ git branch: list out branches
+git branch branch-name: create a new branch
+git checkout branch-name: switch to the newly created branch
+git checkout -b branch-name: shortcut! - use this command to create & switch to the new branch
+git push origin branch-name: push branch & changes to github

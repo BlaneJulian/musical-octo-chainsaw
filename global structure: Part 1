@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Page</title>
+  </head>
+
+  <body>
+
+    <a href="#some_text" id="my_link">My Link</a>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <p id="some_text">The anchor takes us here.</p>
+
+    <a href="#my_link">Go Back</a>
+
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+
+    <dl>
+      <dt>video Pros</dt>
+        <dd>Jon</dd>
+        <dd>Michael</dd>
+        <dt>Teachers</dt>
+          <dd>Nick</dd>
+          <dd>Jim</dd>
+          <dd>Amit</dd>
+    </dl>
+
+    <dl>
+      <dt lang="en-US">color</dt>
+      <dt lang="en-GB">colour</dt>
+      <dd>A sensation which (in humans) derives from the ability to detect light.</dd>
+    </dl>
+    <ul>
+      <li>The third item
+        <ul>
+          <li>The third item</li>
+          <li>First item
+            <ul>
+              <li>The third item</li>
+              <li>First item</li>
+              <li>The next thing</li>
+              <li>This one comes last</li>
+            </ul>
+          </li>
+          <li>The next thing</li>
+          <li>This one comes last</li>
+        </ul>
+      </li>
+      <li>First item</li>
+      <li>The next thing</li>
+      <li>This one comes last</li>
+    </ul>
+      <p>I know how to use <abbr title="self-contained underwater breathing apparatus">SCUBA</abbr> gear.</p>
+    <address>
+      Andrea Faciane<br>
+      3303 NE 12th<br>
+      Portland,Oregon 97212
+    </address>
+
+    <p>My favorite book is <cite> A Tale of Two Cities</cite> by Charles Dickens.</p>
+
+    <p>think<wbr>vitamin.com</p>
+
+      <p>When we use the <code> drive()</code>
+         function on the  <code>vehicle </code> object, it moves forward.</p>
+
+      <pre>
+          Here is some text.
+
+          It is...
+                    preformatted!
+      </pre>
+
+      <pre><code>
+        if (!foo){
+          then bar = 3;
+        }
+      </code></pre>
+      <p>
+        This the first line of the poem.<br>
+        This is the second line.
+      </p>
+
+      <blockquote cite="httpa://example.com/story.html">
+        <p>
+          The quick brown fox jumped over the lazy dog.Then, the dog chased after the fox.
+        </p>
+      </blockquote>
+
+        <p>A wise man once said <q cite="http://example.com/story.html">I think, therefore I am. </q></p>
+    <h1>This is a level 1 headline.</h1>
+    <h2>This is a level 2 headline.</h2>
+    <h3>This is a level 3 headline.</h3>
+    <h4>This is a level 4 headline.</h4>
+    <h5>This is a level 5 headline.</h5>
+    <h6>This is a level 6 headline.</h6>
+
+          <p> <em>"Lorem ipsum dolor</em> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <hr>
+          <p><strong>"Lorem ipsum dolor</strong> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <p><bold>"Lorem ipsum dolor</bold> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+  </body>
+</html>

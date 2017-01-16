@@ -1,0 +1,26 @@
+[CLIENT] 0x36001fc
+  [CLIENT_ID] 2dc12b17a-31fc-4e57-bd3f-4431090ccef2
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] css/style.css - Treehouse Workspaces - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (650,68,789,797)
+  [GEOMETRY-MAXIMIZED] (650,68,789,797)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x360001d
+  [CLIENT_ID] 2dc12b17a-31fc-4e57-bd3f-4431090ccef2
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] KMHD Live Stream - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (1,49,1033,850)
+  [GEOMETRY-MAXIMIZED] (1,49,648,850)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10080

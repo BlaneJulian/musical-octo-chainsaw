@@ -1,0 +1,13 @@
+[CLIENT] 0x320001d
+  [CLIENT_ID] 2937b785f-bf11-4ed6-8718-5967cddcf868
+  [CLIENT_LEADER] 0x3200001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Live Chess - Chess.com - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (1,49,1069,848)
+  [GEOMETRY-MAXIMIZED] (1,49,1069,848)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

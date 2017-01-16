@@ -1,0 +1,26 @@
+[CLIENT] 0x360002b
+  [CLIENT_ID] 25ba0d7cb-eeb2-4df7-8def-dbe2a06a9ada
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Live Chess - Chess.com - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (0,49,1440,851)
+  [GEOMETRY-MAXIMIZED] (1,49,762,848)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10300
+[CLIENT] 0x360001d
+  [CLIENT_ID] 25ba0d7cb-eeb2-4df7-8def-dbe2a06a9ada
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] KMHD Live Stream - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (632,252,470,199)
+  [GEOMETRY-MAXIMIZED] (0,49,762,848)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

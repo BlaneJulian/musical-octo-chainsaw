@@ -1,0 +1,26 @@
+[CLIENT] 0x36003af
+  [CLIENT_ID] 28f92c6c1-b5e4-49f3-a82f-2b4f4dba1e6d
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Ubuntu Start Page - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (702,49,648,850)
+  [GEOMETRY-MAXIMIZED] (702,49,648,850)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x360001d
+  [CLIENT_ID] 28f92c6c1-b5e4-49f3-a82f-2b4f4dba1e6d
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] KMHD Live Stream - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (1,49,648,850)
+  [GEOMETRY-MAXIMIZED] (1,49,1130,850)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

@@ -1,0 +1,35 @@
+[CLIENT] 0x2000014
+  [CLIENT_ID] 24f83194b-b3c8-4072-b2e8-a5a0ef0f5ac5
+  [CLIENT_LEADER] 0x2000001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] How to install Atom editor in Ubuntu 14.04 | Code for geek - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (1,49,718,850)
+  [GEOMETRY-MAXIMIZED] (1,49,718,850)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10100
+[CLIENT] 0x3c00001
+  [RES_NAME] atom
+  [RES_CLASS] Atom
+  [WM_NAME] Welcome Guide — Atom
+  [GEOMETRY] (1,49,1024,850)
+  [GEOMETRY-MAXIMIZED] (1,49,1024,875)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10180
+[CLIENT] 0x3400004
+  [CLIENT_ID] 284a77bff-cdee-4764-8990-aaab8c4a6b08
+  [CLIENT_LEADER] 0x3400001
+  [WINDOW_ROLE] xfce4-terminal-1482452964--1006323679
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - milleniunfalcons@millenium-falcons-MacBookPro: ~
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (721,49,717,849)
+  [GEOMETRY-MAXIMIZED] (431,294,577,359)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10180

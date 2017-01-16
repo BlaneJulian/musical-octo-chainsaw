@@ -1,0 +1,380 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript"> 
+	var clickTag = "http://lesschwab.com";
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.18.0_499ba64a23378545748ff12d372e59e9_min.js"></script>
+<script>
+	
+
+    $( document ).ready(function() {
+		TweenMax.to("#clouds1", 11, {x:50,rotation:0.001, force3D:true, delay:0, ease:Quad.easeOut});
+		TweenMax.to("#clouds2", 11, {x:30,rotation:0.001, force3D:true, delay:0, ease:Quad.easeOut});
+		TweenMax.to("#clouds3", 11, {x:100,rotation:0.001, force3D:true, delay:0, ease:Quad.easeOut});
+		
+		// Frame 1
+		TweenMax.to("#copy1a", .5, {left:'0px', delay:.25, ease:Back.easeOut.config(1)});
+		TweenMax.to("#copy1b", .5, {left:'0px', delay:.75, ease:Back.easeOut.config(1)});
+		TweenMax.to("#copy1c", .5, {left:'0px', delay:1.25, ease:Back.easeOut.config(1)});
+		
+		TweenMax.to("#copy1a", .5, {left:'-300px', delay:2.7, ease:Quint.easeIn});
+		TweenMax.to("#copy1b", .5, {left:'-300px', delay:2.8, ease:Quint.easeIn});
+		TweenMax.to("#copy1c", .5, {left:'-300px', delay:2.9, ease:Quint.easeIn});
+		
+		// Frame 2
+		TweenMax.to("#copy2a", .5, {left:'0px',opacity:1, delay:3.25, ease:Back.easeOut.config(1)});
+		TweenMax.to("#copy2b", .5, {left:'0px',opacity:1, delay:3.75, ease:Back.easeOut.config(1)});
+		TweenMax.to("#copy2c", .5, {left:'0px',opacity:1, delay:4.25, ease:Back.easeOut.config(1)});
+		TweenMax.to("#copy2d", .5, {left:'0px',opacity:1, delay:4.75, ease:Back.easeOut.config(1)});
+		
+		TweenMax.to("#copy2a", .5, {left:'-300px', delay:6.6, ease:Quint.easeIn});
+		TweenMax.to("#copy2b", .5, {left:'-300px', delay:6.7, ease:Quint.easeIn});
+		TweenMax.to("#copy2c", .5, {left:'-300px', delay:6.8, ease:Quint.easeIn});
+		TweenMax.to("#copy2d", .5, {left:'-300px', delay:6.9, ease:Quint.easeIn});
+		
+		// Frame 3
+		TweenMax.to("#copy3a", .5, {left:'0px',opacity:1, delay:7.25, ease:Back.easeOut.config(1)});
+		TweenMax.to("#copy3b", .5, {left:'0px',opacity:1, delay:7.75, ease:Back.easeOut.config(1)});
+		TweenMax.to("#copy3c", .5, {left:'0px',opacity:1, delay:8.25, ease:Back.easeOut.config(1)});
+		
+		TweenMax.to("#cta", .5, {opacity:1, scale:1, delay:9.25, ease:Cubic.easeOut});
+		TweenMax.delayedCall(10, rollOver);
+		TweenMax.delayedCall(10.5, rollOut);
+
+		$('#bg-exit').hover(
+
+			function(){
+				rollOver();
+			},
+			function(){
+				rollOut();
+			}
+
+		); 
+		function rollOver(){
+			$('#arrow').animate({ left: 101 },150, "easeOutCubic");
+		}
+		
+		function rollOut(){
+			$('#arrow').animate({ left: 96 },150, "easeOutCubic");
+		}
+		
+    });
+	
+</script>
+<style rel="stylesheet" type="text/css">
+body, body * {
+	vertical-align: baseline;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 9pt;
+	color: #fffbe6;
+}
+#main-container {
+	background: #fffbe6;
+	position: absolute;
+	width: 160px;
+	height: 600px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+div, img {
+	position: absolute;
+	background-repeat: no-repeat;
+}
+#clouds1 {
+	background-image: url(https://d21a3h018cqvjt.cloudfront.net/5866d0feffd7ce32faeed3a1/clouds1.png);
+	background-size: 100% 100%;
+	width: 270px;
+	height: 600px;
+	top: 0px;
+	left: -100px;
+	-webkit-transform: translate3d(0, 0, 1);
+	transform: translate3d(0, 0, 1);
+}
+#clouds2 {
+	background-image: url(https://d21a3h018cqvjt.cloudfront.net/5866d0feffd7ce32faeed3a1/clouds2.png);
+	background-size: 100% 100%;
+	width: 270px;
+	height: 600px;
+	top: 0px;
+	left: -100px;
+	-webkit-transform: translate3d(0, 0, 1);
+	transform: translate3d(0, 0, 1);
+}
+#clouds3 {
+	background-image: url(https://d21a3h018cqvjt.cloudfront.net/5866d0feffd7ce32faeed3a1/clouds3.png);
+	background-size: 100% 100%;
+	width: 270px;
+	height: 600px;
+	top: 0px;
+	left: -100px;
+	-webkit-transform: translate3d(0, 0, 1);
+	transform: translate3d(0, 0, 1);
+}
+#copy1a, #copy2a, #copy3a {
+	width: 300px;
+	height: 33px;
+	left: -300px;
+	opacity: 1;
+	top: 67px;
+}
+.redbar {
+	background-image: url(https://d21a3h018cqvjt.cloudfront.net/5866d0feffd7ce32faeed3a1/redbar.png);
+	background-position: -100px top;
+	width: 300px;
+	height: 40px;
+	right: 0px;
+	top: 0px;
+	opacity:.9;
+}
+#copy1a .redbar {
+	right: 78px;
+}
+#copy1b .redbar {
+	right: 78px;
+}
+#copy1c .redbar {
+	right: 115px;
+}
+.copy {
+	background-image: url(https://d21a3h018cqvjt.cloudfront.net/5866d0feffd7ce32faeed3a1/sprite.png);
+	width: 255px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+}
+#copy1a .copy {
+	background-position: 6px 8px;
+}
+#copy2a .copy {
+	background-position: 6px -118px;
+}
+#copy3a .copy {
+	background-position: 6px -286px;
+}
+#copy2a .redbar {
+	right: 51px;
+}
+#copy2b .redbar {
+	right: 46px;
+}
+#copy2c .redbar {
+	right: 89px;
+}
+#copy2d .redbar {
+	right: 84px;
+}
+#copy1b, #copy2b, #copy3b {
+	width: 300px;
+	height: 33px;
+	left: -300px;
+	opacity: 1;
+	top: 110px;
+}
+#copy1b .copy {
+	background-position: 6px -34px;
+}
+#copy2b .copy {
+	background-position: 6px -161px;
+}
+#copy3b .copy {
+	background-position: 6px -329px;
+}
+#copy1c, #copy2c, #copy3c {
+	width: 300px;
+	height: 33px;
+	left: -300px;
+	opacity: 1;
+	top: 153px;
+}
+#copy1c .copy {
+	background-position: 6px -77px;
+}
+#copy2c .copy {
+	background-position: 6px -204px;
+}
+#copy3c .copy {
+	background-position: 6px -370px;
+}
+#copy3a .redbar {
+	right: 70px;
+}
+#copy3b .redbar {
+	right: 50px;
+}
+#copy3c .redbar {
+	right: 80px;
+}
+#copy2d, #copy3d {
+	width: 300px;
+	height: 33px;
+	left: -300px;
+	opacity: 1;
+	top: 196px;
+}
+#copy2d .copy {
+	background-position: 6px -246px;
+}
+#copy3d .copy {
+	background-position: 6px -413px;
+}
+#logo {
+	background: url(https://d21a3h018cqvjt.cloudfront.net/5866d0feffd7ce32faeed3a1/logo.png);
+	width: 157px;
+	height: 209px;
+	right: 0px;
+	bottom: 0px;
+}
+#cta {
+	position: relative;
+	transform-origin: center center;
+	transform: scale(1);
+	-webkit-transform-origin: center center;
+	-webkit-transform: scale(1);
+	overflow: hidden;
+	width: 147px;
+	height: 20px;
+	left: 11px;
+	top: 225px;
+	opacity: 0;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+	z-index: 100005;
+	cursor: pointer;
+}
+#text {
+	background: url(https://d21a3h018cqvjt.cloudfront.net/5866d0feffd7ce32faeed3a1/sprite.png) no-repeat;
+	background-position: 0px -501px;
+	overflow: hidden;
+	width: 94px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+#arrow {
+	background: url(https://d21a3h018cqvjt.cloudfront.net/5866d0feffd7ce32faeed3a1/sprite.png) no-repeat;
+	background-position: -95px -501px;
+	overflow: hidden;
+	width: 20px;
+	height: 20px;
+	left: 96px;
+	top: 0px;
+}
+#bg-exit {
+	background-color: rgba(255,255,255,0);
+	cursor: pointer;
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 100004;
+}
+</style>
+</head>
+
+<body>
+<div id="main-container">
+  <div id="clouds3"></div>
+  <div id="clouds2"></div>
+  <div id="clouds1"></div>
+  <div id="copy1a">
+    <div class="redbar"></div>
+    <div class="copy"></div>
+  </div>
+  <div id="copy1b">
+    <div class="redbar"></div>
+    <div class="copy"></div>
+  </div>
+  <div id="copy1c">
+    <div class="redbar"></div>
+    <div class="copy"></div>
+  </div>
+  <div id="copy2a">
+    <div class="redbar"></div>
+    <div class="copy"></div>
+  </div>
+  <div id="copy2b">
+    <div class="redbar"></div>
+    <div class="copy"></div>
+  </div>
+  <div id="copy2c">
+    <div class="redbar"></div>
+    <div class="copy"></div>
+  </div>
+  <div id="copy2d">
+    <div class="redbar"></div>
+    <div class="copy"></div>
+  </div>
+  <div id="copy3a">
+    <div class="redbar"></div>
+    <div class="copy"></div>
+  </div>
+  <div id="copy3b">
+    <div class="redbar"></div>
+    <div class="copy"></div>
+  </div>
+  <div id="copy3c">
+    <div class="redbar"></div>
+    <div class="copy"></div>
+  </div>
+  <div id="logo"></div>
+  <div id="bg-exit"></div>
+  <div id="cta">
+    <div id="text"></div>
+    <div id="arrow"></div>
+  </div>
+</div>
+  <script> function bgExitHandler(e) {}
+
+document.getElementById('bg-exit').addEventListener('click', bgExitHandler, false);
+document.getElementById('cta').addEventListener('click', bgExitHandler, false);
+</script>
+</body>
+</html>
+ÂÒmŠ–¹      X|þX|ÿ=U=…X|þ   K    a,:https://d21a3h018cqvjt.cloudfront.net/5866d0feffd7ce32faeed3a1/index.htm necko:classified 1 strongly-framed 1 security-info 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 request-method GET request-Origin https://www.chess.com response-head HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 8239
+Date: Tue, 03 Jan 2017 18:07:45 GMT
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET
+Access-Control-Max-Age: 3000
+Last-Modified: Fri, 30 Dec 2016 21:26:23 GMT
+Etag: "da1f8a1a01934546ce642e0c9fe9d82b"
+Accept-Ranges: bytes
+Server: AmazonS3
+Vary: Origin,Access-Control-Request-Headers,Access-Control-Request-Method
+Age: 72638
+X-Cache: Hit from cloudfront
+Via: 1.1 1f5200ace72953cff28f9982c5f15365.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 0-PD6rCxv21RkAyhHs5V9WIHYINXff7_11_uBB4cY6UL5-Sx2U2xUA==
+ original-response-headers Content-Type: text/html
+Content-Length: 8239
+Connection: keep-alive
+Date: Tue, 03 Jan 2017 18:07:45 GMT
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET
+Access-Control-Max-Age: 3000
+Last-Modified: Fri, 30 Dec 2016 21:26:23 GMT
+Etag: "da1f8a1a01934546ce642e0c9fe9d82b"
+Accept-Ranges: bytes
+Server: AmazonS3
+Vary: Origin,Access-Control-Request-Headers,Access-Control-Request-Method
+Age: 72638
+X-Cache: Hit from cloudfront
+Via: 1.1 1f5200ace72953cff28f9982c5f15365.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 0-PD6rCxv21RkAyhHs5V9WIHYINXff7_11_uBB4cY6UL5-Sx2U2xUA==
+ uncompressed-len 0    /

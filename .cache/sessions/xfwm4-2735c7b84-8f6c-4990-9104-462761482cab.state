@@ -1,0 +1,26 @@
+[CLIENT] 0x340001d
+  [CLIENT_ID] 23cec7097-1c69-4c64-b43a-34f788b6b735
+  [CLIENT_LEADER] 0x3400001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Positioning Elements Side-By-Side with Inline Display | CSS Layout Basics | Treehouse - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (0,49,1440,851)
+  [GEOMETRY-MAXIMIZED] (1,49,773,721)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10300
+[CLIENT] 0x3400248
+  [CLIENT_ID] 23cec7097-1c69-4c64-b43a-34f788b6b735
+  [CLIENT_LEADER] 0x3400001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] workspaces:welcome.md - Treehouse Workspaces - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (1088,689,378,115)
+  [GEOMETRY-MAXIMIZED] (1088,689,378,115)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

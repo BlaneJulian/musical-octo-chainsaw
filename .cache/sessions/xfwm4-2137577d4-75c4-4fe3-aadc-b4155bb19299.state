@@ -1,0 +1,13 @@
+[CLIENT] 0x360001d
+  [CLIENT_ID] 2c1c4f802-d320-491e-82f4-1ec292696e3f
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Intro to Programming (Evening) - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (0,49,1440,851)
+  [GEOMETRY-MAXIMIZED] (365,75,869,721)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10300

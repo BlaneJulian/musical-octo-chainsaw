@@ -1,0 +1,6 @@
+2017/01/16-10:16:28.761 7252 Reusing MANIFEST /home/milleniumfalcons/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2017/01/16-10:16:28.762 7252 Recovering log #455
+2017/01/16-10:16:29.045 7252 Reusing old log /home/milleniumfalcons/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000455.log 
+2017/01/16-10:39:35.040 7820 Level-0 table #459: started
+2017/01/16-10:39:35.171 7820 Level-0 table #459: 1270450 bytes OK
+2017/01/16-10:39:35.224 7820 Delete type=0 #455
